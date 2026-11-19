@@ -1,0 +1,1 @@
+{"hw":{"led":{"total":64,"ins":[{"start":0,"len":64,"pin":[2],"type":22}],"matrix":{"mpc":1,"panels":[{"b":false,"r":false,"v":true,"s":true,"x":0,"y":0,"h":8,"w":8}]}}}}

@@ -1,0 +1,4 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"state":{"on":true,"bri":200,"hue":12000,"sat":200,"effect":"none","xy":[0.4,0.4],"ct":300,"alert":"none","colormode":"xy","reachable":true}}

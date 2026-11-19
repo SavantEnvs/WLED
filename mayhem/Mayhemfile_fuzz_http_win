@@ -1,0 +1,9 @@
+project: savantenvs/WLED
+target: fuzz_http_win
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_http_win/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_http_win
+    libfuzzer: true
+    timeout: 10

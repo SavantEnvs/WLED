@@ -1,0 +1,3 @@
+HTTP/1.1 200 OK
+
+[{"error":{"type":101,"address":"","description":"link button not pressed"}}]

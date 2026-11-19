@@ -1,0 +1,9 @@
+project: savantenvs/WLED
+target: fuzz_cfg_json
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_cfg_json/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_cfg_json
+    libfuzzer: true
+    timeout: 10
